@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: "#369be4";
+  --secondary: "#ff7722";
+  --tertiary: "#fff";
+  --danger: "orangered";
+  --dark: "#111";
+  --whiteOne: "#fcfcfc";
+  --whiteTwo: "#f9f9f9";
+  --whiteThree: "#eee";
+  --grayOne: "#767676";
+  --grayTwo: "#ddd";
+  --grayThree: "#aaa";
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+html {
+  font-size: 10px;
+  color: var(--dark);
+}
+
+body {
+  color: var(--dark);
+  background: var(--secondary);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color:#369be4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 10px;
+}
